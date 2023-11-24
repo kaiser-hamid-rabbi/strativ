@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 
-forcast = pd.read_csv("./forcast.csv")
+forcast = pd.read_csv("./task_2/forcast.csv")
 
 
 # API endpoint to get temperature for a given date

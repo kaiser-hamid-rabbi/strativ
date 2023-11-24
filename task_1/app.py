@@ -21,7 +21,7 @@ def fetch_weather_forecast(latitude, longitude):
 
 
 # Read the JSON file containing districts' latitude and longitude
-file_path = "bd-districts.json"
+file_path = "./task_1/bd-districts.json"
 with open(file_path, "r", encoding="utf-8") as file:
     districts_data = json.load(file)
 districts = districts_data["districts"]
